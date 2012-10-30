@@ -6,7 +6,7 @@ solution "Brainfrak"
 		kind "ConsoleApp"
 		language "C++"
 		files { "src/**.cc", "src/**.h" }
-		debugdir "assets"
+		debugdir "scripts"
 		debugargs { "mandelbrot.b" }
 		
 		configuration "Debug"
